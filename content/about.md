@@ -1,21 +1,26 @@
 +++
 title = "About Me"
-date = "2014-04-09"
-aliases = ["about-us","about-hugo","contact"]
+date = "2022-02-01"
+aliases = ["about","about-me"]
 [ author ]
-  name = "Hugo Authors"
+  name = "Joy Paulsen"
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+👋 Hi there! My name is Joy Paulsen (pronouns: they/them) and I live in [Minnepolis, MN](https://goo.gl/maps/WcAuj4o94y2mRfab9).
 
 ### Work
 
-It makes use of a variety of open source projects including:
+**I am a Senior Data Scientist and technical lead working in the logistics space at [C.H. Robinson](https://www.chrobinson.com/en-us/technology/robinson-labs/).** I've had the opportunity to work on a wide variety of problems, including:
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+* Both customer-facing and internally-focused recommendation systems
+* Long-term pricing and supply/demand forecasting
+* Developing performant production ML applications in many contexts
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+
+### Meta
+
+This is built with [Hugo](https://gohugo.io/) and hosted with [Netlify](https://www.netlify.com/). You can always [peek at the code](https://github.com/joypauls/joypauls.dev) if you're bored :)
+
+
+
+

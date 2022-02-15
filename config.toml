@@ -14,7 +14,7 @@ paginate     = 10
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "Experienced Data Scientist and Programmer"
+  homeSubtitle = "Data Scientist and Engineer"
   homeLocation = "Minneapolis, MN, US"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
@@ -54,7 +54,7 @@ paginate     = 10
     logoText     = "welcome"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
-    # logoCursorDisabled = false
+    logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
     # logoCursorColor    = "#67a2c9"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
@@ -65,9 +65,9 @@ paginate     = 10
   #   name = "twitter"
   #   url  = "https://twitter.com/"
 
-  # [[params.social]]
-  #   name = "email"
-  #   url  = "mailto:nobody@example.com"
+  [[params.social]]
+    name = "email"
+    url  = "mailto:hello@joypauls.dev"
 
   [[params.social]]
     name = "github"
@@ -85,7 +85,7 @@ paginate     = 10
 [languages]
   [languages.en]
     title = "Joy Paulsen"
-    subtitle = "Data Scientist // Writer // Minneapolis"
+    subtitle = "Experienced Data Scientist and Programmer"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
@@ -100,10 +100,10 @@ paginate     = 10
 
 # And you can even create generic menu
 [menu]
-  # [[menu.main]]
-  #   identifier = "about"
-  #   name       = "About"
-  #   url        = "about/"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
   # [[menu.main]]
   #   identifier = "contact"
   #   name       = "Contact"

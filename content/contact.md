@@ -10,14 +10,14 @@ aliases = ["get in touch","contact me","contact"]
     <input type="hidden" name="form-name" value="contact" />
     <!-- Text input-->
     <div class="form-group">
-        <label class="col-md-4 control-label" for="Name">Name</label>
+        <!-- <label class="col-md-4 control-label" for="Name">Name</label> -->
         <div class="col-md-6">
             <input id="contact-form-name" name="Name" type="text" placeholder="Name" class="form-control input-md" required="" autocomplete="off">
         </div>
     </div>
     <!-- Text input-->
     <div class="form-group">
-        <label class="col-md-4 control-label" for="Email">Email</label>
+        <!-- <label class="col-md-4 control-label" for="Email">Email</label> -->
         <div class="col-md-4">
             <input id="contact-form-email" name="Email" type="email" placeholder="Email Address" class="form-control input-md" required="" autocomplete="off">
         </div>
