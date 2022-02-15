@@ -1,5 +1,5 @@
 baseurl      = "/"
-title        = "My Blog"
+title        = "Joy Paulsen's Portfolio"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
@@ -17,11 +17,13 @@ paginate     = 10
   homeSubtitle = "Data Scientist and Engineer"
   homeLocation = "Minneapolis, MN, US"
 
+  enableThemeToggle = false
+
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+  disableReadOtherPosts = true
 
   # Enable sharing buttons, if you like
-  enableSharingButtons = true
+  enableSharingButtons = false
 
   # Metadata mostly used in document's head
   description = "Personal site and professional portfolio for Joy Paulsen"
