@@ -49,3 +49,11 @@ if (themeToggle) {
 } else {
   localStorage.removeItem("theme");
 }
+
+// Event handler for the submit button on the contact form.
+function handleSubmit(e) {
+  e.preventDefault();
+  alert("Thank you!");
+}
+
+document.getElementById("contact-form").addEventListener("submit", handleSubmit);

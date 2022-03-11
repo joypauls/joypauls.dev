@@ -6,6 +6,7 @@
   padding: 20px;
   // Default
   background: $light-background-header;
+  border-bottom: 1px solid $dark-background-header-border;
 
   @media (prefers-color-scheme: dark) {
     background: $dark-background-header;

@@ -72,7 +72,7 @@ h6 {
 h1, h2, h3, h4 {
   display: inline-block;
   font-weight: normal;
-  border-bottom: 2px solid $accent-color;
+  border-bottom: 1px solid $accent-color;
 }
 
 h1 {
@@ -82,7 +82,7 @@ h1 {
 h2 {
   font-size: 1.625rem;
   // margin-top: 2.5em;
-  border-bottom: 2px solid $accent-color;
+  border-bottom: 1px solid $accent-color;
 }
 
 h3 {
@@ -440,4 +440,39 @@ hr {
 // Prism JS Additionals
 .highlight {
   margin: 30px auto;
+}
+
+// Social Icons
+.social-icon {
+  color: $accent-color;
+}
+
+// Contact Form Stuff
+.contact-form {
+  max-width:420px; 
+  margin:50px auto;
+}
+
+.contact-form input, textarea {
+    color: $dark-color;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 0;
+    line-height: 22px;
+    background-color: transparent;
+    border: 1px solid $dark-color;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.contact-form button {
+  border: 1px solid $accent-color;
+  border-radius: 0;
+  color: $accent-color;
+  margin: auto;
 }
