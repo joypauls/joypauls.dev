@@ -113,6 +113,9 @@ h4 {
 
 a {
   color: inherit;
+  &:hover {
+    color: $accent-color;
+  }
 }
 
 img {
@@ -292,7 +295,8 @@ pre {
 }
 
 blockquote {
-  border-left: 3px solid #3eb0ef;
+  border-left: 3px solid $accent-color;
+  font-style: italic;
   margin: 40px;
   padding: 10px 20px;
 
@@ -360,10 +364,10 @@ hr {
   border: none;
   height: 1px;
   // Default
-  background: $light-border-color;
+  background: $dark-background-header-border;
 
   @media (prefers-color-scheme: dark) {
-    background: $dark-border-color;
+    background: $dark-background-header-border;
   }
 
   @media (prefers-color-scheme: light) {
@@ -371,7 +375,7 @@ hr {
   }
 
   [data-theme=dark] & {
-    background: $dark-border-color;
+    background: $dark-background-header-border;
   }
 
   [data-theme=light] & {
