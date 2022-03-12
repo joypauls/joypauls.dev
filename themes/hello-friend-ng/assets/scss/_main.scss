@@ -470,6 +470,10 @@ hr {
     outline:0;
 }
 
+.contact-form input:focus, textarea:focus {
+  border-color: $accent-color;
+}
+
 .contact-form button {
   border: 1px solid $accent-color;
   border-radius: 0;
