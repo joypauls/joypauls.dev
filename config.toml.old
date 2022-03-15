@@ -1,0 +1,122 @@
+baseurl      = "/"
+title        = "Joy Paulsen's Portfolio"
+languageCode = "en-us"
+# theme        = "hello-friend-ng"
+theme        = "gokarna"
+paginate     = 10
+
+[author]
+  name = "Joy Paulsen"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "Data Scientist"
+  homeLocation = "Minneapolis, MN, US"
+
+  enableThemeToggle = false
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = true
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = false
+
+  # Metadata mostly used in document's head
+  description = "Personal site and professional portfolio for Joy Paulsen"
+  keywords = "homepage, blog, site, professional"
+  images = [""]
+
+  [params.portrait]
+    path     = "/img/portrait.jpg"
+    alt      = "Portrait"
+    maxWidth = "100px"
+
+  # Custom footer 
+  # If you want, you can easily override the default footer with your own content. 
+  #
+  [params.footer]
+    trademark = true
+    rss = false
+    copyright = true
+    author = true
+
+    # topText = []
+    # bottomText = []
+    # bottomText = [
+    #   "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Joy Paulsen</a>"
+    # ]
+  
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "welcome"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+  # Social icons
+  # [[params.social]]
+  #   name = "twitter"
+  #   url  = "https://twitter.com/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:hello@joypauls.dev"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/joypauls/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/joy-paulsen-0bb55419b/"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Joy Paulsen"
+    subtitle = "Experienced Data Scientist and Programmer"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    # [languages.en.params.logo]
+    #   logoText = "Hello There"
+    #   logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "contact/"
+  # [[menu.main]]
+  #   identifier = "posts"
+  #   name       = "Posts"
+  #   url        = "posts/"

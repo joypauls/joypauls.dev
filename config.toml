@@ -1,122 +1,77 @@
-baseurl      = "/"
-title        = "Joy Paulsen's Portfolio"
-languageCode = "en-us"
-theme        = "hello-friend-ng"
-# theme        = "pico"
-paginate     = 10
+baseURL = "https://gokarna-hugo.netlify.app"
+title = "Joy Paulsen"
+theme = "gokarna"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
 
-[author]
-  name = "Joy Paulsen"
+# Choose one of emacs, trac or perldoc
+pygmentsStyle = "monokai"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+  footer = "Joy Paulsen"
+  description = "Data Scientist | Builder"
+  accentColor = "#e090c3"
+  # avatarURL = "/images/portrait.jpg"
+  avatarSize = "size-m"
+  customHeadHTML = """
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/katex.min.css" integrity="sha384-6LkG2wmY8FK9E0vU9OOr8UvLwsaqUg9SETfpq4uTCN1agNe8HRdE9ABlk+fVx6gZ" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/katex.min.js" integrity="sha384-31El76TwmbHj4rF9DyLsygbq6xoIobG0W+jqXim+a3dU9W53tdH3A/ngRPxOzzaB" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+  """
+  socialIcons = [
+    {name = "github", url = "https://github.com/joypauls/"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/joy-paulsen-0bb55419b/"},
+    {name = "email", url = "mailto:hello@joypauls.dev"},
+    # {name = "dribbble", url = "https://example.com"},
+    # {name = "instagram", url = "https://example.com"},
+    # {name = "twitch", url = "https://example.com"},
+  ]
+  metaKeywords = ["blog", "portfolio", "hugo"]
 
-  # Subtitle for home
-  homeSubtitle = "Data Scientist"
-  homeLocation = "Minneapolis, MN, US"
-
-  enableThemeToggle = false
-
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = true
-
-  # Enable sharing buttons, if you like
-  enableSharingButtons = false
-
-  # Metadata mostly used in document's head
-  description = "Personal site and professional portfolio for Joy Paulsen"
-  keywords = "homepage, blog, site, professional"
-  images = [""]
-
-  [params.portrait]
-    path     = "/img/portrait.jpg"
-    alt      = "Portrait"
-    maxWidth = "100px"
-
-  # Custom footer 
-  # If you want, you can easily override the default footer with your own content. 
-  #
-  [params.footer]
-    trademark = true
-    rss = false
-    copyright = true
-    author = true
-
-    # topText = []
-    # bottomText = []
-    # bottomText = [
-    #   "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Joy Paulsen</a>"
-    # ]
-  
-  # Colors for favicons
-  [params.favicon.color]
-    mask = "#1b1c1d"
-    msapplication = "#1b1c1d"
-    theme = "#1b1c1d"
-
-  [params.logo]
-    logoMark     = ">"
-    logoText     = "welcome"
-    logoHomeLink = "/"
-    # Set true to remove the logo cursor entirely.
-    logoCursorDisabled = false
-    # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
-    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    # logoCursorAnimate  = "2s"
-
-  # Social icons
-  # [[params.social]]
-  #   name = "twitter"
-  #   url  = "https://twitter.com/"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:hello@joypauls.dev"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/joypauls/"
-
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/joy-paulsen-0bb55419b/"
-
-[taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
-
-[languages]
-  [languages.en]
-    title = "Joy Paulsen"
-    subtitle = "Experienced Data Scientist and Programmer"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
-
-    # [languages.en.params.logo]
-    #   logoText = "Hello There"
-    #   logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
-
-# And you can even create generic menu
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  [[menu.main]]
-    identifier = "contact"
-    name       = "Contact"
-    url        = "contact/"
+    name = "Home"
+    url = "/"
+    weight = 1
+
   # [[menu.main]]
-  #   identifier = "posts"
-  #   name       = "Posts"
-  #   url        = "posts/"
+  #   name = "Posts"
+  #   url = "/posts/"
+  #   weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+  # [[menu.main]]
+  #   name = "Tags"
+  #   url = "/tags/"
+  #   weight = 4
+
+  [[menu.main]]
+    identifier = "github"
+    pre = "<span data-feather='github'></span>"
+    url = "https://github.com/joypauls"
+    weight = 5
+
+  # [[menu.main]]
+  #   identifier = "buymeacoffee"
+  #   pre = "<span data-feather='coffee'></span>"
+  #   url = "https://www.buymeacoffee.com/avijitgupta"
+  #   weight = 6
+
+  # [[menu.main]]
+  #   identifier = "rss"
+  #   pre = "<span data-feather='rss'></span>"
+  #   url = "/index.xml"
+  #   weight = 7
