@@ -6,7 +6,7 @@ aliases = ["about","about-me"]
   name = "Joy Paulsen"
 +++
 
-👋 Hi there! My name is Joy Paulsen (pronouns: they/them) and I live in [Minnepolis, MN](https://goo.gl/maps/WcAuj4o94y2mRfab9).
+👋 Hi there! My name is Joy Paulsen (pronouns are [they/them](https://pronoun.is/they/)) and I live in [Minnepolis, MN](https://goo.gl/maps/WcAuj4o94y2mRfab9).
 
 
 ### Work

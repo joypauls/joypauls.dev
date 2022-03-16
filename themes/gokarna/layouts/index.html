@@ -5,11 +5,11 @@
         <img class={{ .Site.Params.AvatarSize | default "size-m" }} src='{{ .Site.Params.AvatarURL }}'>
         {{ end }}
 	</div>
-    <h1 style="margin-top: 8rem;">{{ .Site.Title }}</h1>
-    <h3>{{ .Site.Params.Description }}</h3>
+    <h1>{{ .Site.Title }}</h1>
+    <h4 style="font-weight: normal;">{{ .Site.Params.Description }}</h3>
 </section>
 
-<div class="flex-break"></div>
+<!-- <div class="flex-break"></div> -->
 
 {{ if isset .Site.Params "socialicons" }}
 <section class="social-icons">

@@ -1,22 +1,22 @@
 :root {
-  --dark-primary-color: 34, 39, 46;
+  --dark-primary-color: #24212e;
   --dark-secondary-color: #2d333b;
   --dark-tertiary-color: #646464;
   --dark-text-color: white;
 }
 
 html {
-  background-color: rgb(var(--dark-primary-color));
+  background-color: var(--dark-primary-color);
   color: var(--dark-text-color);
   fill: var(--dark-text-color);
 }
 
 .header {
-  background-color: rgba(var(--dark-primary-color), 0.95);
+  background-color: var(--dark-primary-color);
 }
 
 .nav-hamburger-list {
-  background: rgba(var(--dark-primary-color), 1);
+  background: var(--dark-primary-color);
 }
 
 .nav-links .nav-icons-divider {
@@ -35,7 +35,7 @@ a:hover .feather-moon {
 
 .post-tags .post-tag:hover {
   background-color: var(--dark-text-color);
-  color: rgb(var(--dark-primary-color));
+  color: var(--dark-primary-color);
 }
 
 .tags-list .post-tags .post-tag a .tag-posts-count {
@@ -44,7 +44,7 @@ a:hover .feather-moon {
 
 .tags-list .post-tags .post-tag:hover a .tag-posts-count {
   background-color: var(--dark-text-color);
-  color: rgb(var(--dark-primary-color));
+  color: var(--dark-primary-color);
 }
 
 .footer {
