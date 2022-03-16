@@ -14,8 +14,8 @@ aliases = ["about","about-me"]
 **I am a Senior Data Scientist and technical lead working in the logistics space at [C.H. Robinson](https://www.chrobinson.com/en-us/technology/robinson-labs/).** I've had the opportunity to work on a wide variety of problems, including:
 
 * Both customer-facing and internally-focused recommendation systems
-* Long-term pricing forecast and two-sided marketplace dynamics
-* Developing performant production ML applications in many contexts
+* Long-term pricing forecasts and modelling two-sided marketplace dynamics
+* Developing robust and performant ML applications in many contexts
 
 ---
 
@@ -23,6 +23,7 @@ aliases = ["about","about-me"]
 
 This site is built with [Hugo](https://gohugo.io/) and hosted with [Netlify](https://www.netlify.com/), both of which I highly recommend! You can always [peek at the code](https://github.com/joypauls/joypauls.dev) if you're bored :)
 
+---
 
 ### Support
 
