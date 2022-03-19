@@ -1,6 +1,6 @@
 baseURL = "https://joypauls.dev"
 title = "Joy Paulsen"
-theme = "gokarna"
+theme = "gokarna-modified"
 languageCode = "en"
 defaultContentLanguage = "en"
 enableEmoji = true
@@ -39,10 +39,10 @@ pygmentsStyle = "monokai"
     url = "/"
     weight = 1
 
-  # [[menu.main]]
-  #   name = "Posts"
-  #   url = "/posts/"
-  #   weight = 2
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
 
   [[menu.main]]
     name = "About"

@@ -6,4 +6,8 @@
     {{ if eq .Type "page" }}
         {{- partial "page.html" . -}}
     {{ end }}
+
+    {{ if eq .Type "blog" }}
+        {{- partial "blog.html" . -}}
+    {{ end }}
 {{ end }}
