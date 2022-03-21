@@ -411,12 +411,14 @@ table td {
 
 /* LIST */
 .list-posts .list-title {
-  text-align: center;
+  /* text-align: center;  */
 }
 .list-posts .posts-year {
   margin-top: 70px;
 }
 .list-posts .post-title {
+  display: flex;
+  justify-content: space-between;
   margin: 18px 0 0 15px;
 }
 .list-posts a {
@@ -570,6 +572,22 @@ table td {
   } */
 }
 
+.blog-content {
+  /* margin: 90px auto 0; */
+  width: var(--content-width);
+  display: flex;
+  flex-direction: column;
+  flex: 1 auto;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 8px;
+
+  /* @media #{$media-size-phone} {
+    margin-top: 0;
+  } */
+}
+
 .container {
   flex: 1 auto;
   display: flex;
@@ -584,4 +602,10 @@ table td {
   text-align: left;
   /* padding: 10px; */
   margin: 20px auto;
+}
+
+.site-title {
+  display: inline-block;
+  border-bottom: 1px solid var(--accent-color);
+  padding-bottom: 2px;
 }
