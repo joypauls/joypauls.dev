@@ -606,6 +606,12 @@ table td {
 
 .site-title {
   display: inline-block;
-  border-bottom: 1px solid var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
   padding-bottom: 2px;
+  font-size: 2.3em;
+}
+
+/* for animation */
+svg rect {
+  fill: var(--accent-color);
 }

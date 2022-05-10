@@ -11,7 +11,7 @@ pygmentsStyle = "monokai"
 
 [params]
   footer = "Joy Paulsen"
-  description = "Data Scientist | Developer | Builder"
+  description = "Data Scientist. Developer. Builder."
   brand = "joypauls.dev"
   accentColor = "#e090c3"
   # avatarURL = "/images/portrait.jpg"

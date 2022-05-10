@@ -79,7 +79,7 @@ function handleSubmit(e) {
     alert("Thank you!");
 }
 
-// Make sure react component mounts before attaching listeners
+// Make sure component mounts before attaching listeners
 var el = document.getElementById("contact-form");
 if (el) {
     el.addEventListener("submit", handleSubmit);
