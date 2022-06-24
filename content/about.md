@@ -6,26 +6,17 @@ aliases = ["about","about-me"]
   name = "Joy Paulsen"
 +++
 
-👋 Hi there! My name is Joy Paulsen (pronouns are [they/them](https://pronoun.is/they/)) and I live in [Minnepolis, MN](https://goo.gl/maps/WcAuj4o94y2mRfab9).
-
-
-### Work
-
-**I am a Senior Data Scientist and technical lead working in the logistics space at [C.H. Robinson](https://www.chrobinson.com/en-us/technology/robinson-labs/).** I've had the opportunity to work on a wide variety of problems, including:
-
-* Both customer-facing and internally-focused recommendation systems
-* Long-term pricing forecasts and modelling two-sided marketplace dynamics
-* Developing robust and performant ML applications in many contexts
+👋 Hi there! I'm Joy Paulsen (pronouns are [they/them](https://pronoun.is/they/)), a data scientist and engineer specializing in personalization and recommendation systems living in Minnepolis, MN. Currently working on personalization at [Target](https://tech.target.com/).
 
 ---
 
-### Meta
+## Meta
 
 This site is built with [Hugo](https://gohugo.io/) and hosted with [Netlify](https://www.netlify.com/), both of which I highly recommend! You can always [peek at the code](https://github.com/joypauls/joypauls.dev) if you're bored :)
 
 ---
 
-### Support
+## Support
 
 If you're still here, listed below are a few organizations that are doing amazing things. [Send me a message](/contact) with your donation and I'll match it!
 
