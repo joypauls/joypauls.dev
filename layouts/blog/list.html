@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="blog-content">
+  <div class="post list-posts">
+  
+      <!-- <h1 class="list-title">{{ .Name }}</h1> -->
+      <h1 class="list-title">Climate Dynamics</h1>
+  
+      <img class="blog-image" src="/images/earth_downsampled_cropped.png"></img>
+  
+      {{ range (where .Pages "Params.type" "post" ).GroupByDate "2006" }}
+  
+      <h2 class="posts-year">{{ .Key }}</h2>
+  
+      {{- range .Pages  -}}
+          {{- partial "list-posts.html" . -}}
+      {{ end }}
+      {{ end }}
+  
+  </div>
+</div>
+{{ end }}

@@ -1,7 +1,7 @@
 <div class="blog-content">
 <div class="post list-posts">
 
-    <h1 class="list-title">{{ .Name }}</h2>
+    <h1 class="list-title">{{ .Name }}</h1>
 
     {{ range (where .Pages "Params.type" "post" ).GroupByDate "2006" }}
 
