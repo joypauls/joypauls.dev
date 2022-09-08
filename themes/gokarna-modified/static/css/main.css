@@ -593,6 +593,13 @@ table td {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 1rem;
+}
+
+@media only screen and (max-width: 820px) {
+  .blog-image  {
+    width: 60%;
+  }
 }
 
 .container {
