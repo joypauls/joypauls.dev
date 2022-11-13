@@ -45,6 +45,11 @@ pygmentsStyle = "monokai"
   #   weight = 2
 
   [[menu.main]]
+    name = "Photos"
+    url = "/galleries/"
+    weight = 2
+
+  [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 3
