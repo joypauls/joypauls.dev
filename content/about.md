@@ -8,7 +8,7 @@ aliases = ["about","about-me"]
 
 👋 Hi there! I'm Joy Paulsen (pronouns are [they/them](https://pronoun.is/they/)), a data scientist and engineer specializing in personalization and recommendation systems living in Minnepolis, MN. Currently working on personalization at [Target](https://tech.target.com/).
 
----
+<!-- ---
 
 ## Meta
 
@@ -24,6 +24,6 @@ If you're still here, listed below are a few organizations that are doing amazin
 > "We build pathways for young women of color to embrace the current tech marketplace as builders and creators by introducing them to skills in computer programming and technology."
 
 [Our Justice MN](https://www.ourjustice.net/donate)
-> "Our Justice works to ensure that all people and communities have the power and resources to make sexual and reproductive health decisions with self-determination."
+> "Our Justice works to ensure that all people and communities have the power and resources to make sexual and reproductive health decisions with self-determination." -->
 
 

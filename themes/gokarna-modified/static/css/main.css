@@ -548,8 +548,8 @@ table td {
   border: 1.5px solid var(--accent-color);
   padding: 10px;
   border-radius: 4px;
-  background-color: transparent;
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: white;
   margin: auto;
 }
 .contact-form button:hover {
