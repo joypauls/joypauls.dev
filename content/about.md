@@ -6,8 +6,9 @@ aliases = ["about","about-me"]
   name = "Joy Paulsen"
 +++
 
-👋 Hi there! I'm Joy Paulsen (pronouns are [they/them](https://pronoun.is/they/)), a data scientist and engineer specializing in personalization and recommendation systems living in Minnepolis, MN. Currently working on personalization at [Target](https://tech.target.com/).
+👋 Hi there! I'm Joy Paulsen (pronouns are [they/them](https://pronoun.is/they/)), a data scientist and engineer specializing in personalization and recommendation systems living in Minneapolis, MN. Currently working on personalization at [Target](https://tech.target.com/).
 
+---
 
 In my free time (when the skies are clear) you can find me out at night with a telescope and camera, collecting data and creating images like the ones below:
 
@@ -22,6 +23,11 @@ In my free time (when the skies are clear) you can find me out at night with a t
 <figure style="margin-bottom: 1rem;">
   <img src="/images/rosette_nebula.jpg" style="max-width: 300px">
   <figcaption style="text-align: center; font-style: italic; font-size: medium;">The Rosette Nebula (NGC 2244)</figcaption>
+</figure>
+
+<figure style="margin-bottom: 1rem;">
+  <img src="/images/orion_nebula.jpg" style="max-width: 300px">
+  <figcaption style="text-align: center; font-style: italic; font-size: medium;">The Orion Nebula (M42)</figcaption>
 </figure>
 {{< /rawhtml >}}
 

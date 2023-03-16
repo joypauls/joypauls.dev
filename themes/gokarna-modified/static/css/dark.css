@@ -1,6 +1,6 @@
 :root {
   --dark-primary-color: #24212e;
-  --dark-secondary-color: #2d333b;
+  --dark-secondary-color: #494754;
   --dark-tertiary-color: #646464;
   --dark-text-color: white;
 }
@@ -57,7 +57,7 @@ blockquote {
 }
 
 hr {
-  color: var(--dark-secondary-color);
+  background-color: var(--dark-secondary-color);
 }
 
 table thead {
