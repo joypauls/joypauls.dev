@@ -12,6 +12,10 @@
     {
       "files": "**/*.svg",
       "options": { "parser": "markdown" }
+    },
+    {
+      "files": "**/*.jpg",
+      "options": { "parser": "markdown" }
     }
   ]
 }
